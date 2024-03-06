@@ -47,6 +47,11 @@ int main(int argc, char *argv[])
         // Caso particular
         if (a == 0)
         {
+            if (b == 0)
+            {
+                std::cout << "{ }";
+                return 0;
+            }
             std::cout << '{' << (-c) / b << '}';
             return 0;
         }
