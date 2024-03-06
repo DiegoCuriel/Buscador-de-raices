@@ -35,4 +35,7 @@ Después de compilar el proyecto, siga estos pasos para ejecutar el programa:
 1. Navegue al directorio de la versión compilada:<br>
 `cd Release`
 2. Ejecute el programa proporcionando los coeficientes `a`, `b` y `c` del polinomio:<br>
-`findroots a b c`
+Símbolo del sistema:<br>
+`findroots a b c`<br>
+PowerShell:<br>
+`.\findroots.exe a b c`
